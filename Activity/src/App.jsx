@@ -27,13 +27,11 @@ function App() {
         </button>
       </div>
       <div className='textarea'>
-      <ul className="list">
-                {items.map((item, index) => (
-                 <li key={index} className="list-item">{item}
-          
-                </li>
-              ))}
-            </ul>
+      <ul>
+            {items.map((item, index) =>(
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
       </div>
           
     </div>

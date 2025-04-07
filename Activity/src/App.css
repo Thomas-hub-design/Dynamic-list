@@ -1,26 +1,29 @@
+body {
+  display:flex;
+  justify-content: center;
+}
 .container {
-  width:80vw;
+  width:400px;
   max-height:auto;
   margin:100px;
   padding: 20px;
   font-family: Arial, sans-serif;
-  outline-style:ridge;
-  outline-color:azure;
-
+  box-shadow:5px 5px 10px black;
+  
 }
   
 
 
 h2 {
   text-align: left;
-  color: rgb(25, 204, 121);
+  color: turquoise;
 }
 
 .input-area {
   display:flex;
   margin-bottom: 10px;
   outline: auto;
-  outline-color:rgb(27, 214, 127) ;
+  outline-color:turquoise;
 }
 
 .input-field {
@@ -31,13 +34,17 @@ h2 {
 .add-button {
   margin:none;
   padding: 10px;
-  background-color:rgb(27, 214, 127);
+  background-color:turquoise;
   color: white;
   cursor: pointer;
+  border:1px solid black;
+  border-radius:0;
 }
 
 .list {
   padding: 20px;
+  list-style-type: circle;
+  list-style-position: inside;
   
 }
 
@@ -49,7 +56,7 @@ h2 {
 }
 .textarea {
 outline: auto;
-outline-color:rgb(27, 214, 127) ;
+outline-color:turquoise;
 margin:auto;
-background-color:rgb(198, 251, 253);
+background-color:rgb(137, 252, 252)
 }
